@@ -1,0 +1,437 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MultiTextEditor
+</name>
+</assembly>
+<members>
+<member name="T:MultiTextEditor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MultiTextEditor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MultiTextEditor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:MultiTextEditor.frmAverageUnitsByEmployee.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Closes the program.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmAverageUnitsByEmployee.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the function ResetForm on click of the reset button.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmAverageUnitsByEmployee.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enters current input into the list of units shipped for the employee and date emphasized. Upon completion of a week by an employee, their average is
+ displayed. Upon completion of 3 employees, the overall average per day is also displayed.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmAverageUnitsByEmployee.ResetForm">
+ <summary>
+ Sub-function what resets the form to its default state.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.Car.#ctor">
+ <summary>
+ Default constructor for the car class maintains a class count variable
+ </summary>
+</member>
+<member name="M:MultiTextEditor.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="makeValue"></param>
+ <param name="modelValue"></param>
+ <param name="yearValue"></param>
+ <param name="priceValue"></param>
+ <param name="statusValue"></param>
+</member>
+<member name="P:MultiTextEditor.Car.Count">
+ <summary>
+ Returns the number of car Objects
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MultiTextEditor.Car.Id">
+ <summary>
+ Gets a cars ID number
+ </summary>
+ <returns>A cars identification number</returns>
+</member>
+<member name="P:MultiTextEditor.Car.Make">
+ <summary>
+ Gets and sets a car objects manufacturer
+ </summary>
+ <returns>A cars manufacturer as a string</returns>
+</member>
+<member name="P:MultiTextEditor.Car.Model">
+ <summary>
+ Gets and sets a car objects model
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MultiTextEditor.Car.Year">
+ <summary>
+ Gets and sets a car objects year of production
+ </summary>
+ <returns>A cars Year as a string</returns>
+</member>
+<member name="P:MultiTextEditor.Car.Price">
+ <summary>
+ Gets and sets a car objects Price
+ </summary>
+ <returns>A cars Price as a Decimal</returns>
+</member>
+<member name="P:MultiTextEditor.Car.IsNew">
+ <summary>
+ Gets and sets a car objects manufacturer
+ </summary>
+ <returns>A cars manufacturer as a string</returns>
+</member>
+<member name="M:MultiTextEditor.Car.GetCarData">
+ <summary>
+ Method used to get the car statuses from the database.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exits the program on click of the exit button.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls function SetDefaults to reset the entry fields of the program.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Accepts the inputted data and validates it. If the values are good, it is then saved and added the the output list.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.ResetForm">
+ <summary>
+ Function SetDefault resets the entry fields of the program
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.ValidInput">
+ <summary>
+ Function check to see if all the required inputs are present. If information is missing, an error message is displayed.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.lvwCars_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ If a car is selected from the list box, its information will be pulled to the input boxes.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.lvwCharacters_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Prevents accidental modifications of the list
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmCarInventory.GenerateList">
+ <summary>
+ Function used to create the list in the listbox
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuWindowsCascade_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cascades the opened child windows
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuWindowsTileVertical_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aligns the open child windows vertically
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuWindowsTileHorizontal_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aligns the open child windows horizontally
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuEditCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the copying function from the texteditor file. Will not work if the activechild is not a texteditor.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuEditCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the cut function from the texteditor file. Will not work if the activechild is not a texteditor.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuEditPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the paste function from the texteditor file. Will not work if the activechild is not a texteditor.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuFileSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the save function from the texteditor file. Will not work if the activechild is not a texteditor.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuFileSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the save as function from the texteditor file. Will not work if the activechild is not a texteditor.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuFileClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Closes the current activechild form. If the activechild is a texteditor, it will call the exit function to check for edits.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuFileExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exits the program. Checks to see if there are open pages and will ask the user for confirmation if pages are open.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuFileNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Creates an new instance of a textfile.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuHelpAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Displays messagebox.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuFileOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens an existing textfile for use in a new testeditor instance.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.btnToolStripNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Creates an new instance of a textfile.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.btnToolStripOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens an existing textfile for use in a new testeditor instance.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.btnToolStripSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the save function from the texteditor file. Will not work if the activechild is not a texteditor.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuWindowsOpenCarList_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens an instance of the program Car Inventory in new window.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.mnuWindowsAverageUnits_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens an instance of the program Average Units by Employee in new window.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.btnToolStripAverageUnits_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens an instance of the program Average Units by Employee in new window.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmMainForm.btnToolStripCarList_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens an instance of the program Car Inventory in new window.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.frmTextEditor_Load(System.Object,System.EventArgs)">
+ <summary>
+ Functions that run on load of the program. 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.txtTextField_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Sets the flag to true if changes were made in the textfield.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the filenew function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.FileNew">
+ <summary>
+ Function for the menu button "New"; creates a new blank document, clearing the existing data in the program and loses any changes not saved.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the fileopen function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.FileOpen">
+ <summary>
+ Function for the menu button "Open"; opens a selection menu that allows the user to select a text file to open for editing.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the filesave function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.FileSave">
+ <summary>
+ Function for the menu button "Save"; saves the current data in the current file name. If a file name doesn't currently exist, it will prompt the user
+ to save under an existing file name or create new file name similar to the save as function.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the file save as function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.FileSaveAs">
+ <summary>
+ Function for the menu button "Save As"; opens a new window allowing the user to select an existing file or create a new file to save the current data in.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Close"; empties the textfield, filename, and disables the current textfield textbox.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the fileexit function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.FileExit">
+ <summary>
+ Function for the menu button "Exit"; exits the program.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the editcopy function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.EditCopy">
+ <summary>
+ Function for the menu button "Copy"; copies the selected text into clipboard.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the editcut function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.EditCut">
+ <summary>
+ Function for the menu button "Cut"; cuts the selected text into clipboard.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the editpaste function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.EditPaste">
+ <summary>
+ Function for the menu button "Paste"; pastes selections in the current clipboard into the textfield.
+ </summary>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.mnuAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "About"; creates a messagebox to appear with information regarding the program.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MultiTextEditor.frmTextEditor.ConfirmClose">
+ <summary>
+ Function that checks if the page has been edited. If there are unsaved changes, messagebo appears for confirmation to leave the page.
+ </summary>
+</member>
+</members>
+</doc>

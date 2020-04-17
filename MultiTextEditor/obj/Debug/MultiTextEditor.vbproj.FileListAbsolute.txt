@@ -1,0 +1,14 @@
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.vbprojAssemblyReference.cache
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.frmMainForm.resources
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.Resources.resources
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.frmTextEditor.resources
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.vbproj.GenerateResource.cache
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\bin\Debug\MultiTextEditor.exe.config
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\bin\Debug\MultiTextEditor.exe
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\bin\Debug\MultiTextEditor.pdb
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\bin\Debug\MultiTextEditor.xml
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.exe
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.xml
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.pdb
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.frmCarInventory.resources
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\MultiTextEditor\obj\Debug\MultiTextEditor.frmAverageUnitsByEmployee.resources
